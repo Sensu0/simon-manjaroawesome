@@ -80,6 +80,8 @@ sudo
 zsh-syntax-highlighting
 zsh-autosuggestions
 jump
+pip
+github
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -106,9 +108,13 @@ source $ZSH/oh-my-zsh.sh
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
 # For a full list of active aliases, run `alias`.
 #
-# Example aliases
+# Aliases
 alias zshconfig="vim ~/.zshrc"
 alias ohmyzsh="vim ~/.oh-my-zsh"
+
+#Execute script to turn off display. Might help with display drivers that 
+#occasionally crash. Like any video driver for and HP Elitebook 820 G1. 
+alias d="cd ~ && ./simon-manjaroawesome/d.sh"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
