@@ -112,10 +112,6 @@ source $ZSH/oh-my-zsh.sh
 alias zshconfig="vim ~/.zshrc"
 alias ohmyzsh="vim ~/.oh-my-zsh"
 alias pip update="cd ~ && ./simon-manjaroawesome/update-pip.sh"
-
-
-#Execute script to turn off display. Might help with display drivers that 
-#occasionally crash. Like any video driver for and HP Elitebook 820 G1. 
 alias d="cd ~ && ./simon-manjaroawesome/d.sh"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
