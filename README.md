@@ -1,13 +1,13 @@
 # simon-manjaroawesome
-<h3> My complete config of Manjaro Awesome Edition </h3>
+<h3>Some config files for Manjaro Awesome Edition</h3>
 
-My configurations for various software. If you want to make your own changes, I'd advise you to fork this.
+Use this however you want, but fork it if you want to make your own changes.
 
 <i>.zshrc</i> can be found at <b>/~</b> (/HOME/USER) path.
 
 <i>Update-pip.sh</i> should be run with superuser/admin privliges (i.e "sudo" or "su") to make sure everything you have gets upgraded.
 
-<i>d.sh</i> turns off the display. I use it to circumvent buggy display drivers (and before you ask; No, I don't use wayland drivers).
+<i>d.sh</i> turns off the display. I use it to circumvent buggy display drivers.
 
 To use the same theme as me, install <a href="https://github.com/romkatv/powerlevel10k">Powerline10k</a> by romkatv
 after installing <a href="https://github.com/ohmyzsh/ohmyzsh">ohmyzsh</a>
