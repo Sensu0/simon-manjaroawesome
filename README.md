@@ -1,5 +1,5 @@
 # simon-manjaroawesome
-<h1> My complete config of Manjaro Awesome Edition </h1>
+<h3> My complete config of Manjaro Awesome Edition </h3>
 
 My configurations for various software. If you want to make your own changes, I'd advise you to fork this.
 
