@@ -9,7 +9,7 @@ Use this however you want, but fork it if you want to make your own changes.
 
 <i>d.sh</i> turns off the display. I use it to circumvent buggy display drivers.
 
-To use the same theme as me, install <a href="https://github.com/romkatv/powerlevel10k">Powerline10k</a> by romkatv
+To use the same theme as me, download <a href="https://github.com/romkatv/powerlevel10k">Powerline10k</a> by romkatv
 after installing <a href="https://github.com/ohmyzsh/ohmyzsh">ohmyzsh</a>
 
 zsh-autosuggestions can be found <a href="https://github.com/zsh-users/zsh-autosuggestions">here</a>
