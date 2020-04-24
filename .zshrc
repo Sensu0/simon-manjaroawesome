@@ -112,7 +112,7 @@ alias zshconfig="vim ~/.zshrc"
 alias ohmyzsh="vim ~/.oh-my-zsh"
 alias pipupg="cd ~ && sudo ./git-clones/simon-manjaroawesome/update-pip.sh"
 alias d="cd ~ && ./git-clones/simon-manjaroawesome/d.sh"
-alias nitroshare="cd ~ && ./nitroshare/src/nitroshare-desktop-0.3.4/out/nitroshare"
+alias nitroshare="cd ~ && ./nitroshare/src/nitroshare*/out/nitroshare"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
