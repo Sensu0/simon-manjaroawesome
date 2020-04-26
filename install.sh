@@ -1,10 +1,16 @@
 #!/usr/bin/zsh
-#Pasted install commands from github repos. Make sure antigen is installed on your system before executing this shell.
+#
+#Execute with sudo or su for cd and chmod to work properly.
+#
+#Installs autosuggestions and syntax-highlighting.
+#
+#You need to restart your terminal after installation to use these.
 
-#You also need to restart your terminal before these can be used.
+cd /home/simon/
 
-antigen bundle zsh-users/zsh-syntax-highlighting
-antigen bundle zsh-users/zsh-autosuggestions
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 
-git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
-git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+#swap "simon" with your username, if you've installed omz at $/HOME/USER
+cd .oh-my-zsh/custom/plugins/
+chmod -R 755 ./zsh-syntax-highlighting/ ./zsh-autosuggestions/
