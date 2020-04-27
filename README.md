@@ -17,6 +17,10 @@ I may  make one script for Powerline10k sometime.
 To use the same theme as me, download <a href="https://github.com/romkatv/powerlevel10k">Powerline10k</a> by romkatv
 after installing <a href="https://github.com/ohmyzsh/ohmyzsh">ohmyzsh</a>
 
+Keep in mind that Powerlevel10k, zsh-autosuggestions and zsh-syntax-highlightning are to be stored in your <b>.oh-my-zsh/custom/</b> folder, inside the subfolder for <i>themes/</i> or <i>plugins/</i>.
+
+the <b>awesome</b> and <b>rofi</b> folders are stored in the <i>/~/.config</i> path.
+
 <h4>Credits</h4>
 
 Myself for this repo
@@ -30,7 +34,3 @@ zsh-users for making
 <a href="https://github.com/zsh-users/zsh-syntax-highlighting">zsh-syntax-highlighting</a>
 
 romkatv for making Powerline10k
-
-Keep in mind that Powerlevel10k, zsh-autosuggestions and zsh-syntax-highlightning are to be stored in your <b>.oh-my-zsh/custom/</b> folder, inside the subfolder for <i>themes/</i> or <i>plugins/</i>.
-
-the <b>awesome</b> and <b>rofi</b> folders are stored in the <i>/~/.config</i> path.
