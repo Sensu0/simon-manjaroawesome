@@ -1,16 +1,2 @@
-#!/usr/bin/zsh
-#
-#Execute with sudo or su for cd and chmod to work properly.
-#
-#Installs autosuggestions and syntax-highlighting.
-#
-#You need to restart your terminal after installation to use these.
-
-cd /home/simon/
-
-git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
-git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-.oh-my-zsh/custom}/plugins/zsh-autosuggestions
-
-#swap "simon" with your username, if you've installed omz at $/HOME/USER
-cd .oh-my-zsh/custom/plugins/
-chmod -R 755 ./zsh-syntax-highlighting/ ./zsh-autosuggestions/
+#install packages commonly used by myself
+sudo pacman -S vim jack2 chromium libreoffice virtualbox htop neofetch ristretto kdenlive hplip konversation steam obs-studio glances timeshift discord man tldr yay pcmanfm ranger
