@@ -110,7 +110,7 @@ source $ZSH/oh-my-zsh.sh
 # Aliases
 alias zshconfig="vim ~/.zshrc"
 alias ohmyzsh="vim ~/.oh-my-zsh"
-alias pipupg="cd ~ && sudo ./git-clones/simon-manjaroawesome/update-pip.sh"
+alias pipupgrade="sudo pip3 list -o --format columns|  cut -d' ' -f1|xargs -n1 pip install -U"
 #Turn off display
 alias d="xset dpms force off"
 alias nitroshare="cd ~ && ./nitroshare/src/nitroshare*/out/nitroshare"
