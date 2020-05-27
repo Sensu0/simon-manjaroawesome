@@ -47,14 +47,15 @@ beautiful.bg_normal         = "#222D32"
 beautiful.bg_focus          = "#2C3940"
 beautiful.titlebar_close_button_normal = "/usr/share/awesome/themes/cesious/titlebar/close_normal_adapta.png"
 beautiful.titlebar_close_button_focus = "/usr/share/awesome/themes/cesious/titlebar/close_focus_adapta.png"
-beautiful.font              = "Noto Sans Regular 12"
-beautiful.notification_font = "Noto Sans Bold 12"
+beautiful.font              = "Droid Sans Mono Slashed for Powerline 12"
+beautiful.notification_font = "Droid Sans Mono Slashed for Powerline 12"
+beautiful.wallpaper	    = "#000000"
 
 -- This is used later as the default terminal and editor to run.
 browser = "exo-open --launch WebBrowser" or "chromium"
-filemanager = "exo-open --launch FileManager" or "pcmanfm-qt"
+filemanager = "exo-open --launch FileManager" or "pcmanfm"
 gui_editor = "mousepad"
-terminal = os.getenv("TERMINAL") or "lxterminal"
+terminal = "qterminal"
 
 -- Default modkey.
 -- Usually, Mod4 is the key with a logo between Control and Alt.
