@@ -1,3 +1,2 @@
 #install packages commonly used by myself
-sudo pacman -S jack2
-sudo pacman -S vim chromium libreoffice virtualbox htop neofetch ristretto kdenlive hplip konversation steam obs-studio glances timeshift discord man tldr yay pcmanfm ranger qterminal
+sudo pacman -S vim chromium brave libreoffice virtualbox htop neofetch ristretto kdenlive manjaro-printer hplip steam obs-studio glances timeshift discord man tldr yay base-devel pcmanfm qterminal gimp qbittorrent vlc snes9x-gtk lutris
