@@ -114,7 +114,7 @@ alias ohmyzsh="vim ~/.oh-my-zsh"
 #Turn off display
 alias d="xset dpms force off"
 #show 'sector count' and 'sector size' of inserted disc. Afterwards, print the command to use for making an iso of it.
-alias makeiso="isosize -x /dev/sr0 && echo "Use 'dd if=/dev/sr0 of=discmage.iso bs=sector_size count=sector_count status=progresis'""
+alias makeiso="isosize -x /dev/sr0 && echo Use 'dd if=/dev/sr0 of=discmage.iso bs=sector_size count=sector_count status=progresis'"
 alias j="jump"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
