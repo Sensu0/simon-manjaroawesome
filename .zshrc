@@ -110,11 +110,10 @@ source $ZSH/oh-my-zsh.sh
 # Aliases
 alias zshconfig="vim ~/.zshrc"
 alias ohmyzsh="vim ~/.oh-my-zsh"
-alias pipupgrade="sudo pip3 list -o --format columns|  cut -d' ' -f1|xargs -n1 pip install -U"
 #Turn off display
 alias d="xset dpms force off"
-alias nitroshare="cd ~ && ./nitroshare/src/nitroshare*/out/nitroshare"
-
+#show 'sector count' and 'sector size' of inserted disc. Afterwards, print the command to use for making an iso of it.
+alias makeiso="isosize -x /dev/sr0 && echo "Use 'dd if=/dev/sr0 of=discmage.iso bs=sector_size count=sector_count status=progresis'""
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
