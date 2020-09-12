@@ -5,7 +5,8 @@ Copyright (c) 2013 Thiago de Arruda (see https://github.com/zsh-users/zsh-autosu
 Copyright (c) 2016-2019 Eric Freese (see https://github.com/zsh-users/zsh-autosuggestions)
 Copyright (c) 2009-2020 Robby Russell and contributors (see https://github.com/robbyrussell/oh-my-zsh/contributors)
 Copyright (c) 2014-2017 Ben Hilburn <bhilburn@gmail.com> (see https://github.com/romkatv/powerlevel10k/contributors)
-Copyright (c) 2019 Roman Perepelitsa <roman.perepelitsa@gmail.com> and contributors (see https://github.com/romkatv/powerlevel10k/contributors)
+Copyright (c) 2019 Roman Perepelitsa <roman.perepelitsa@gmail.com> and contributors
+(see https://github.com/romkatv/powerlevel10k/contributors)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -27,7 +28,8 @@ SOFTWARE.
 
 BSD 3-Clause "New" or "Revised" License
 
-Copyright (c) 2010-2020 zsh-syntax-highlighting contributors All rights reserved. (see https://github.com/zsh-users/zsh-syntax-highlighting)
+Copyright (c) 2010-2020 zsh-syntax-highlighting contributors All rights reserved.
+(see https://github.com/zsh-users/zsh-syntax-highlighting)
 
 Redistribution and use in source and binary forms, with or without modification,
 are permitted provided that the following conditions are met:
