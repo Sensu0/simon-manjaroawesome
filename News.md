@@ -9,6 +9,13 @@ Improved formatting of scripts. Now it's much easier to read both scripts and ma
 
 For installation of <i>AUR</i> packages in <b>install2.sh</b>, I have added the <i>--sudoloop</i> flag as well, so you don't have to enter your password after compilation of every package. That said, I think you will still have to put in your password before instattion/compilation of every package group. I haven't tested this yet, because I don't want to recompile all my <i>AUR</i> packages (my PC is not meant to be a heater).
 
+<b>New script: <i>mega-script.sh</i></b>
+
+It will install everything!
+
+<b>Removed <i>update-pip.sh</i></b>
+
+Because it's useless with newer releases of <i>pip</i>.
 
 ---
 
