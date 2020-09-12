@@ -1,4 +1,3 @@
-#News
 <h3>News</h3>
 
 <i><h4>12/September/2020</h4></i>
