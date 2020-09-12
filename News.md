@@ -1,6 +1,6 @@
-<h3>News</h3>
+<h2>News</h2>
 
-<i><h4>12/September/2020</h4></i>
+<h4>12/September/2020</h4>
 
 <b>"install.sh" and "install2.sh" changes</b>
 
@@ -18,7 +18,7 @@ Because it's useless with newer releases of <i>pip</i>.
 
 ---
 
-<i><h4>3/July/2020</h4></i>
+<h4>3/July/2020</h4>
 
 I'll use this to comment on changes I make, starting today, <i>3/July/2020</i>.
 
