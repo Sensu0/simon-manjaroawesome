@@ -16,6 +16,8 @@ Shell-scripts are executable out-of-the-box for speedy deployment.
 <i>omzplugins.sh</i> installs <a href="https://github.com/zsh-users/zsh-autosuggestions">zsh-autosuggestions</a> and <a href="https://github.com/zsh-users/zsh-syntax-highlighting">zsh-syntax-highlighting</a>.
 Restart your terminal after installation.
 
+<i>mega-script.sh</i> will run the above mentioned scripts and copy all config files in the this repo to where they should be.
+
 ---
 
 <h3>Aliases</h3>
