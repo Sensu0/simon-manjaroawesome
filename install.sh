@@ -1,5 +1,7 @@
 #tools
-sudo pacman -S --noconfirm vim libreoffice virtualbox htop neofetch ristretto kdenlive manjaro-printer hplip obs-studio glances timeshift man tldr yay base-devel pcmanfm qterminal gimp qbittorrent vlc 
+sudo pacman -S --noconfirm vim libreoffice virtualbox htop neofetch ristretto kdenlive manjaro-printer \
+hplip obs-studio glances timeshift man tldr yay base-devel pcmanfm qterminal gimp qbittorrent vlc \
+gnome-disk-utility gparted
 
 #browsers
 sudo pacman -S --noconfirm chromium brave
