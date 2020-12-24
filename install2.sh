@@ -1,13 +1,14 @@
 #Use after running 'install.sh'
-
+#
+#This will install all packages from AUR I use
+#
 #other
-sudo yay -S --noconfirm --sudoloop electronplayer unetbootin woeusb-git subtitleedit slack-desktop 
-
-#fonts
-sudo yay -S --noconfirm --sudoloop ttf-w10 noto-fonts-all ttf-ms-fonts ttf-vista-fonts steam-fonts ttf-dejavu-mono-powerline-git
-
-#emulators
-sudo yay -S --noconfirm --sudoloop pcsx2-git dolphin-emu-beta-git pcsxr-pgxp-git kega-fusion rpcs3-git
-
-#games
-sudo yay -S --noconfirm --sudoloop gzdoom dhewm3
+yay -S --noconfirm --sudoloop brave-bin unetbootin subtitleedit slack-desktop teamviewer \
+`#fonts` \
+ttf-win10 noto-fonts-all ttf-ms-fonts steam-fonts ttf-dejavu-sans-mono-powerline-git \
+`#emulators` \
+pcsx2-git dolphin-emu-beta-git pcsxr-pgxp-git kega-fusion rpcs3-git \
+`#games` \
+gzdoom dhewm3 \
+`#entertainment` \
+spotify-adblock-git spotify electronplayer
