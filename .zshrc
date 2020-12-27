@@ -34,7 +34,7 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 # DISABLE_AUTO_UPDATE="false"
 
 # Uncomment the following line to change how often to auto-update (in days).
-# export UPDATE_ZSH_DAYS=2
+export UPDATE_ZSH_DAYS=5
 
 # Uncomment the following line if pasting URLs and other text is messed up.
 # DISABLE_MAGIC_FUNCTIONS=true
@@ -73,14 +73,12 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
-git
 archlinux
 colored-man-pages
 sudo
 zsh-syntax-highlighting
 zsh-autosuggestions
 jump
-github
 emoji
 )
 
@@ -94,28 +92,40 @@ source $ZSH/oh-my-zsh.sh
 # export LANG=sv_SE.UTF-8
 
 # Preferred editor for local and remote sessions
-# if [[ -n $SSH_CONNECTION ]]; then
-#   export EDITOR='vim'
-# else
-#   export EDITOR='mvim'
-# fi
+if [[ -n $SSH_CONNECTION ]]; then
+  export EDITOR='vim'
+else
+  export EDITOR='vi'
+fi
 
 # Compilation flags
-# export ARCHFLAGS="-arch x86_64"
+export ARCHFLAGS="-arch x86_64"
 
 # Set personal aliases, overriding those provided by oh-my-zsh libs,
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
 # For a full list of active aliases, run `alias`.
 #
-# Aliases
+# Aliases and functions
 alias zshconfig="vim ~/.zshrc"
 alias ohmyzsh="vim ~/.oh-my-zsh"
-#Turn off display
+# Turn off display
 alias d="xset dpms force off"
-#show 'sector count' and 'sector size' of inserted disc. Afterwards, print the command to use for making an iso of it.
+# Show 'sector count' and 'sector size' of inserted disc. Afterwards, print the command to use for making an iso of it.
 alias makeiso="isosize -x /dev/sr0 && echo Use dd if=/dev/sr0 of=discmage.iso bs=sector_size count=sector_count status=progress"
 alias j="jump"
+# Run sensors every 2 seconds and open a qterminal w/ htop
+alias cpuload="while :; do sensors; sleep 2; done & qterminal -e htop"
+alias cls="clear"
+function custupdate {
+for gitRepo in \
+  "$HOME/.oh-my-zsh/custom/themes/powerlevel10k" \
+  "$HOME/.oh-my-zsh/custom/plugins/zsh-autosuggestions/" \
+  "$HOME/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting/"
+do
+  git -C "$gitRepo" pull &
+done
+}
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh

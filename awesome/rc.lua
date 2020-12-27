@@ -21,7 +21,7 @@ require("awful.hotkeys_popup.keys.vim")
 if awesome.startup_errors then
     naughty.notify({ preset = naughty.config.presets.critical,
                                   title = "Oops, there were errors during startup!",
-                                  text = awesome.startup_errors })
+                                  text = awesome.startup_errors  })
 end
 -- Handle runtime errors after startup
 do
@@ -47,14 +47,14 @@ beautiful.bg_normal         = "#222D32"
 beautiful.bg_focus          = "#2C3940"
 beautiful.titlebar_close_button_normal = "/usr/share/awesome/themes/cesious/titlebar/close_normal_adapta.png"
 beautiful.titlebar_close_button_focus = "/usr/share/awesome/themes/cesious/titlebar/close_focus_adapta.png"
-beautiful.font              = "Droid Sans Mono Slashed for Powerline 12"
-beautiful.notification_font = "Droid Sans Mono Slashed for Powerline 12"
+beautiful.font              = "Deja Vu Sans Mono for Powerline 12"
+beautiful.notification_font = "Deja Vu Sans Mono for Powerline 12"
 beautiful.wallpaper	    = "#000000"
 
 -- This is used later as the default terminal and editor to run.
 browser = "exo-open --launch WebBrowser" or "chromium"
 filemanager = "exo-open --launch FileManager" or "pcmanfm"
-gui_editor = "mousepad"
+gui_editor = "qterminal -e vim"
 terminal = "qterminal"
 
 -- Default modkey.
@@ -330,11 +330,11 @@ globalkeys = gears.table.join(
               {description = "increase the number of columns", group = "layout"}),
     awful.key({ modkey, "Control" }, "l",     function () awful.tag.incncol(-1, nil, true)           end,
               {description = "decrease the number of columns", group = "layout"}),
-    awful.key({ modkey     }, "b", function () awful.spawn(browser)          end,
+    awful.key({ modkey,    }, "b",	      function () awful.spawn(browser)                       end,
               {description = "launch Browser", group = "launcher"}),
-    awful.key({ modkey, "Control"}, "Escape", function () awful.spawn("/usr/bin/rofi -show drun -modi drun") end,
+    awful.key({ modkey, "Control" }, "Escape" , function () awful.spawn("/usr/bin/rofi -show drun -modi drun")         end,
               {description = "launch rofi", group = "launcher"}),
-    awful.key({ modkey,           }, "e", function () awful.spawn(filemanager)            end,
+    awful.key({ modkey,           }, "e", function () awful.spawn(filemanager)                       end,
               {description = "launch filemanager", group = "launcher"}),
     awful.key({ modkey, "Shift"   }, "space", function () awful.layout.inc(-1)                       end,
               {description = "select previous", group = "layout"}),
@@ -654,4 +654,3 @@ end
 --end)
 
 awful.spawn.with_shell("~/.config/awesome/autorun.sh")
-

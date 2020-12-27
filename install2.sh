@@ -4,7 +4,7 @@
 #
 #other
 yay -S --noconfirm --sudoloop brave-bin unetbootin slack-desktop teamviewer \
-discord-rpc-api keyman-onboard \
+discord-rpc-api keyman-onboard vim-tabnine-git vim-badwolf-git \
 `#fonts` \
 ttf-win10 noto-fonts-all ttf-ms-fonts steam-fonts ttf-dejavu-sans-mono-powerline-git \
 `#emulators` \
