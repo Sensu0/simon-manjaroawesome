@@ -28,6 +28,14 @@ I don't know why, but in my experience, <i>zsh</i> treats <i>cd</i> the same way
 
 <i>gpg.conf</i> and <i>pacman.conf</i> will copy to relevant paths first, so installation of packages will proceed smoothly and look good. Also added <i>.vimrc</i> to be copied.
 
+<h4>New scripts</h4>
+
+<i>mkdir.sh</i> and <i>jump.sh</i> is for creating a lot of directories and then making shortcuts for these, so the <i>jump</i> plugin can be put to good use.
+
+<h4>Updated README.md</h4>
+
+This goes without saying. But now I've said it.
+
 <h4>Happy new year!</h4>
 
 ---
