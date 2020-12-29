@@ -13,3 +13,9 @@ cd -
 cd ~/.oh-my-zsh/custom/plugins/
 chmod -R 755 ./zsh-syntax-highlighting/ ./zsh-autosuggestions/
 cd -
+cd ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions
+git config pull.rebase false
+cd -
+cd ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting
+git config pull.rebase false
+cd -
