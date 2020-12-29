@@ -1,7 +1,8 @@
-<h2>Some config files for Manjaro Awesome Edition among other things</h2>
+<h2>Make setting up Manjaro Awesome Edition a breeze</h2>
 
-Use this however you want, but fork it if you want to make your own changes.
-Shell-scripts are executable out-of-the-box for speedy deployment.
+A collection of scripts and config files, because setting up a fresh install of Linux takes too much time and effort. While it's not completely automated, it will certainly save a lot of time.
+
+My distro of choice is Manjaro (specifically the Awesome community edition) for this repo.
 
 ---
 
