@@ -46,7 +46,7 @@ Function <i>custupdate</i> will update any custom plugins and themes I use with 
 
 <h3>Good to know</h3>
 
-<i>.zshrc</i> is to be stored at <b>~/</b> (/HOME/USER $HOME) path. Same applies to <i>.vimrc</i>
+<i>.zshrc</i> is to be stored at <b>~/</b> (/HOME/USER) path. Same applies to <i>.vimrc</i>
 
 The <b>awesome</b> and <b>rofi</b> folders are stored in the <i>/~/.config</i> path.
 
