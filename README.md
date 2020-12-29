@@ -1,8 +1,10 @@
 <h2>Make setting up Manjaro Awesome Edition a breeze</h2>
 
-A collection of scripts and config files, because setting up a fresh install of Linux takes too much time and effort. While it's not completely automated, it will certainly save a lot of time.
+A collection of scripts and config files, because setting up a fresh install of Linux takes too much time and effort. While it's not completely automated, it will certainly save a lot of time. Easily configurable to suit your needs and preferences.
 
-My distro of choice is Manjaro (specifically the Awesome community edition) for this repo.
+My distro of choice is Manjaro (specifically the Awesome community edition) for this repo, because that's what I prefer.
+
+If you want to make your own spin on this or make something for other distros, then a fork of this is most welcome.
 
 ---
 
@@ -38,15 +40,17 @@ Alias <i>j</i> will execute jump plugin.
 
 Alias <i>cpuload</i> will execute <i>sensors</i> every 2 seconds and run qterminal /w htop in another window.
 
-Function <i>custupdate</i> will update any custom plugins I use with <i>omz</i>.
+Function <i>custupdate</i> will update any custom plugins and themes I use with <i>omz</i>.
 
 ---
 
 <h3>Good to know</h3>
 
-<i>.zshrc</i> is to be stored at <b>/~</b> (/HOME/USER) path. Same applies to <i>.vimrc</i>
+<i>.zshrc</i> is to be stored at <b>~/</b> (/HOME/USER $HOME) path. Same applies to <i>.vimrc</i>
 
 The <b>awesome</b> and <b>rofi</b> folders are stored in the <i>/~/.config</i> path.
+
+Custom plugins and themes are stored in <b>~/.oh-my-zsh/custom/</b>
 
 ---
 
