@@ -117,6 +117,7 @@ alias j="jump"
 # Run sensors every 2 seconds and open a qterminal w/ htop
 alias cpuload="while :; do sensors; sleep 2; done & qterminal -e htop"
 alias cls="clear"
+# Update custom plugins
 function custupdate {
 for gitRepo in \
   "$HOME/.oh-my-zsh/custom/themes/powerlevel10k" \
