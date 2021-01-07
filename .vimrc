@@ -1,8 +1,15 @@
 " theme/colorscheme
 colorscheme badwolf
-
+" Fix spelling highlighting with badwolf
+autocmd ColorScheme badwolf hi SpellBad cterm=reverse
 " display line numbers
 set number
+
+" Spell check for text and LaTex files 
+set spelllang=en_us,sv
+autocmd BufWinEnter,FileType text setlocal spell
+autocmd BufWinEnter,FileType *.tex setlocal spell
+autocmd BufWinEnter,FileType *.TEX setlocal spell
 
 " Bail out if something that ran earlier, e.g. a system wide vimrc, does not
 " want Vim to use these default values.
