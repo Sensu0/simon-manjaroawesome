@@ -8,7 +8,7 @@
 sudo pacman -Syu
 sudo pacman -S --noconfirm vim libreoffice-still libreoffice-still-sv virtualbox htop neofetch ristretto \
 manjaro-printer okular hplip glances timeshift man tldr yay base-devel pcmanfm qterminal gimp \
-qbittorrent gnome-disk-utility gparted wget bash bashtop zsh links kdeconnect lshw ranger \
+qbittorrent gnome-disk-utility gparted wget bash bashtop zsh links kdeconnect lshw ranger i3lock \
 `# multimedia` \
 kdenlive vlc obs-studio subtitleeditor \
 `# browsers` \

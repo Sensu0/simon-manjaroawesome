@@ -117,6 +117,7 @@ alias j="jump"
 # Run sensors every 2 seconds and open a qterminal w/ htop
 alias cpuload="while :; do sensors; sleep 2; done & qterminal -e htop"
 alias cls="clear"
+alias lock="i3lock -c 000000"
 # Update custom plugins
 function custupdate {
 for gitRepo in \

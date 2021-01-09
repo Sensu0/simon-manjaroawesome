@@ -40,6 +40,8 @@ Alias <i>j</i> will execute jump plugin.
 
 Alias <i>cpuload</i> will execute <i>sensors</i> every 2 seconds and run qterminal /w htop in another window.
 
+Alias <i>lock</i> will lock the computer using <i>i3lock -c 000000</i>.
+
 Function <i>custupdate</i> will update any custom plugins and themes I use with <i>omz</i>.
 
 ---
