@@ -6,6 +6,8 @@
 
 I added spelling functionality for <b>markdown</b> language and made an <b>augroup</b> in which I've put all of the <b>autocommands</b> related to spellchecking.
 
+This has been put in place to prevent stacking of <b>autocommands</b> whenever the <i>.vimrc</i> gets <i>source</i>d in a <i>vim</i> session.
+
 <i>Psst, if you look hard enough, you might notice the spelling of this has been improved since</i>
 
 <h4>Patch "rofi/config.rasi"</h4>
