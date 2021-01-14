@@ -83,7 +83,7 @@ configuration {
     border:  0px;
     border-radius: 0px;
     color: @magenta;
-    background-color: @transparent;
+    background-color: #ae3100;
     spacing: 0;
     children:  [vertb, mainbox];
     orientation: horizontal;

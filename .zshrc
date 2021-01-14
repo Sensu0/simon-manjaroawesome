@@ -109,15 +109,31 @@ export ARCHFLAGS="-arch x86_64"
 # Aliases and functions
 alias zshconfig="vim ~/.zshrc"
 alias ohmyzsh="vim ~/.oh-my-zsh"
+alias cls="clear"
+alias j="jump"
+
+# Lock the computer with black background
+alias lock="i3lock -c 000000"
+
 # Turn off display
 alias d="xset dpms force off"
+
 # Show 'sector count' and 'sector size' of inserted disc. Afterwards, print the command to use for making an iso of it.
 alias makeiso="isosize -x /dev/sr0 && echo Use dd if=/dev/sr0 of=discmage.iso bs=sector_size count=sector_count status=progress"
-alias j="jump"
+
 # Run sensors every 2 seconds and open a qterminal w/ htop
 alias cpuload="while :; do sensors; sleep 2; done & qterminal -e htop"
-alias cls="clear"
-alias lock="i3lock -c 000000"
+
+# Git aliases
+alias gadd="git add"
+alias gpul="git pull"
+alias gpus="git push"
+alias gcom="git commit"
+alias gclo="git clone"
+alias gdif="git diff"
+alias gres="git reset"
+alias gsta="git status"
+
 # Update custom plugins
 function custupdate {
 for gitRepo in \

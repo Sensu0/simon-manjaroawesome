@@ -1,4 +1,37 @@
-<h1>News</h1>
+# News
+
+<h3>14/January/2021</h3>
+
+<h4>".vimrc" changes</h4>
+
+I added spelling functionality for <b>markdown</b> language and made an <b>augroup</b> in which I've put all of the <b>autocommands</b> related to spellchecking.
+
+<i>Psst, if you look hard enough, you might notice the spelling of this has been improved since</i>
+
+<h4>Patch "rofi/config.rasi"</h4>
+
+This should have been done a long time ago, but I fixed the <b>error messages</b>. The issue with these have been that error messages you get when <u>launching programs</u> that don't exist or have some other issue like a shortcut not linking to the correct <b>PATH</b> show up as <u>black text, with a transparent background</u>. The background is now color-coded to orange.
+
+However, this is a change that applies to all windows in <i>rofi</i> from now on.
+
+<h4>New aliases for git</h4>
+
+I don't like the <i>git plugin</i> in <i>omz</i>, since the <b>aliases</b> bundled in that plugin are too many and too specific to be useful in general, imo. So I made couple of my own for the <i>git</i> commands I generally use.
+
+List of new <b>aliases</b>:
+
+alias gadd="git add"
+alias gpul="git pull"
+alias gpus="git push"
+alias gcom="git commit"
+alias gclo="git clone"
+alias gdif="git diff"
+alias gres="git reset"
+alias gsta="git status"
+
+<h4>New alias "lock"</h4>
+
+This will lock the computer using <i>i3lock -c 000000</i> (i.e w/ black background).
 
 <h3>28/December/2020</h3>
 
@@ -18,7 +51,7 @@ This one will run <i>sensors</i> every 2 seconds and run <i>htop</i> in a separa
 
 <h4>Now comes with <i>.vimrc</i></h4>
 
-I just made a <i>.vimrc</i> because I wanted to improve my experience of using <i>vim</i>. Basically the same as the <b>default vim config</b>, but with <b>line numbers visible</b> and <i>badwolf</i> set as the <b>theme/colorscheme</b>
+I just made a <i>.vimrc</i> because I wanted to improve my experience of using <i>vim</i>. Basically the same as the <b>default vim config</b>, but with <b>line numbers visible</b> and <i>badwolf</i> set as the <b>theme/colorscheme</b>.
 
 <h4>Fixed and optimized <i>omz*</i> scripts</h4>
 
@@ -46,7 +79,7 @@ This goes without saying. But now I've said it.
 
 Improved formatting of scripts. Now it's much easier to read both scripts and make edits for whoever decides to use these. I have also added <i>--noconfirm</i> flags to make software installation more automatic. 
 
-For installation of <b>AUR</b> packages in <i>install2.sh</i>, I have added the <i>--sudoloop</i> flag as well, so you don't have to enter your password after compilation of every package. That said, I think you will still have to put in your password before instattion/compilation of every package group. I haven't tested this yet, because I don't want to recompile all my <b>AUR</b> packages (my PC is not meant to be a heater).
+For installation of <b>AUR</b> packages in <i>install2.sh</i>, I have added the <i>--sudoloop</i> flag as well, so you don't have to enter your password after compilation of every package. That said, I think you will still have to put in your password before installation/compilation of every package group. I haven't tested this yet, because I don't want to recompile all my <b>AUR</b> packages (my PC is not meant to be a heater).
 
 <h4>New script: <i>mega-script.sh</i></h4>
 
