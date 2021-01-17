@@ -7,14 +7,19 @@
 # Thus allowing us to make a new line after it.
 #
 # other
-yay -S --noconfirm --sudoloop brave-bin unetbootin slack-desktop teamviewer \
-discord-rpc-api keyman-onboard vim-tabnine-git vim-badwolf-git \
+yay -S --noconfirm --sudoloop unetbootin slack-desktop teamviewer discord-rpc-api keyman-onboard \
+\
+vim-tabnine-git vim-badwolf-git ksnip-git \
+\
 `# fonts` \
-ttf-win10 noto-fonts-all ttf-ms-fonts steam-fonts ttf-dejavu-sans-mono-powerline-git \
+ttf-win10 ttf-ms-fonts steam-fonts ttf-dejavu-sans-mono-powerline-git \
+\
 `# emulators` \
-pcsx2-git dolphin-emu-beta-git pcsxr-pgxp-git kega-fusion rpcs3-git mupen64plus-git m64py mednaffe \
+pcsx2-64bit-git dolphin-emu-beta-git pcsxr-pgxp-git kega-fusion rpcs3-git mupen64plus-git m64py mednaffe \
 desmume-git \
+\
 `# games` \
 gzdoom dhewm3 \
+\
 `# entertainment` \
 spotify-adblock-git spotify electronplayer

@@ -6,14 +6,23 @@
 # 
 # tools
 sudo pacman -Syu
-sudo pacman -S --noconfirm vim libreoffice-still libreoffice-still-sv virtualbox htop neofetch ristretto \
-manjaro-printer okular hplip glances timeshift man tldr yay base-devel pcmanfm qterminal gimp \
-qbittorrent gnome-disk-utility gparted wget bash bashtop zsh links kdeconnect lshw ranger i3lock \
+sudo pacman -S --noconfirm vim libreoffice-still libreoffice-still-sv virtualbox \
+\
+manjaro-printer okular hplip glances man tldr yay base-devel pcmanfm qterminal \
+\
+gimp wget bash zsh links kdeconnect ranger i3lock \
+\
+`# system tools ` \
+htop gnome-disk-utility gparted timeshift bashtop lshw neofetch \
+\
 `# multimedia` \
-kdenlive vlc obs-studio subtitleeditor \
-`# browsers` \
-chromium firefox \
+kdenlive vlc obs-studio subtitleeditor ristretto \
+\
+`# Internet` \
+brave chromium firefox qbittorrent thunderbird \
+\
 `# gaming` \
 steam snes9x-gtk vbam-wx lutris discord mednafen ppsspp \
+\
 `# fonts` \
-noto-fonts-cjk noto-fonts
+noto-fonts-cjk noto-fonts noto-fonts-emoji noto-fonts-extra
