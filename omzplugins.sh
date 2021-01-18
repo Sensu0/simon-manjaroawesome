@@ -11,6 +11,7 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 cd ~/.oh-my-zsh/custom/plugins/
 chmod -R 755 ./zsh-syntax-highlighting/ ./zsh-autosuggestions/
-git -c ./zsh-autosuggestions config pull.rebase false
-git -c zsh-syntax-highlighting git config pull.rebase false
-cd -2
+cd zsh-autosuggestions
+git config pull.rebase false
+cd ../zsh-syntax-highlighting
+git config pull.rebase false
