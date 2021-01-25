@@ -1,0 +1,6 @@
+<html>
+<body>
+<h3>Vänliga hälsningar / Best regards</h3>
+<font size="5">Simon Brännström</font>
+</body>
+</html>
