@@ -1,3 +1,4 @@
+cat /tmp/reminder.txt 2>/dev/null
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
 # Initialization code that may require console input (password prompts, [y/n]
 # confirmations, etc.) must go above this block; everything else may go below.
@@ -93,10 +94,11 @@ source $ZSH/oh-my-zsh.sh
 
 # Preferred editor for local and remote sessions
 if [[ -n $SSH_CONNECTION ]]; then
-  export EDITOR='vim'
+  export EDITOR='vim' && export VISUAL='vim'
 else
-  export EDITOR='vi'
+  export EDITOR='vi' && export VISUAL='vi'
 fi
+
 
 # Compilation flags
 export ARCHFLAGS="-arch x86_64"
