@@ -1,4 +1,11 @@
 # News
+<h3>1/March/2021</h3>
+
+<h4>Deleted files</h4>
+<i>mkdir.sh, jump.sh</i> and <i>html-greeting.txt</i> are removed because I figured they were personal. They have been moved somewhere else.
+
+<h4>"install2.sh" now enables services via systemd</h4>
+For the few packages that need those in order to function.
 
 <h3>14/January/2021</h3>
 

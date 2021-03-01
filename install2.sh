@@ -8,6 +8,7 @@
 #
 # other
 yay -S --noconfirm --sudoloop unetbootin slack-desktop teamviewer discord-rpc-api keyman-onboard \
+windscribe \
 \
 vim-tabnine-git vim-badwolf-git ksnip-git \
 \
@@ -15,11 +16,13 @@ vim-tabnine-git vim-badwolf-git ksnip-git \
 ttf-win10 ttf-ms-fonts steam-fonts ttf-dejavu-sans-mono-powerline-git \
 \
 `# emulators` \
-pcsx2-64bit-git dolphin-emu-beta-git pcsxr-pgxp-git kega-fusion rpcs3-git mupen64plus-git m64py mednaffe \
-desmume-git \
-\
-`# games` \
-gzdoom dhewm3 \
+pcsx2-64bit-git dolphin-emu-beta-git pcsxr-pgxp-git kega-fusion rpcs3-git mupen64plus-git m64py \
+mednaffe desmume-git \
 \
 `# entertainment` \
 spotify-adblock-git spotify electronplayer
+
+set -x #echo on
+
+sudo systemctl enable teamviewerd.service windscribe.service
+sudo systemctl start teamviewerd.service windscribe.service
