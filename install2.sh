@@ -8,9 +8,7 @@
 #
 # other
 yay -S --noconfirm --sudoloop unetbootin slack-desktop teamviewer discord-rpc-api keyman-onboard \
-windscribe \
-\
-vim-tabnine-git vim-badwolf-git ksnip-git \
+windscribe xpadneo vim-tabnine-git vim-badwolf-git ksnip-git woeusb \
 \
 `# fonts` \
 ttf-win10 ttf-ms-fonts steam-fonts ttf-dejavu-sans-mono-powerline-git \
