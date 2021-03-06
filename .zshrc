@@ -1,4 +1,3 @@
-cat /tmp/reminder.txt 2>/dev/null
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
 # Initialization code that may require console input (password prompts, [y/n]
 # confirmations, etc.) must go above this block; everything else may go below.
@@ -99,7 +98,6 @@ else
   export EDITOR='vi' && export VISUAL='vi'
 fi
 
-
 # Compilation flags
 export ARCHFLAGS="-arch x86_64"
 
@@ -135,6 +133,7 @@ alias gclo="git clone"
 alias gdif="git diff"
 alias gres="git reset"
 alias gsta="git status"
+alias girm="git rm"
 
 # Update custom plugins
 function custupdate {
