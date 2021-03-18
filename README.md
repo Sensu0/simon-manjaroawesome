@@ -1,4 +1,4 @@
-#Make setting up Manjaro Awesome Edition a breeze
+# Make setting up Manjaro Awesome Edition a breeze
 
 A collection of scripts and config files, because setting up a fresh install of Linux takes too much time and effort. While it's not completely automated, it will certainly save a lot of time. Easily configurable to suit your needs and preferences.
 
