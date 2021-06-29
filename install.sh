@@ -6,7 +6,7 @@
 # 
 # tools
 sudo pacman -Syu
-sudo pacman -S --noconfirm vim libreoffice-still libreoffice-still-sv virtualbox \
+sudo pacman -S --noconfirm vim libreoffice-still libreoffice-still-sv virtualbox cronie rclone \
 \
 manjaro-printer okular hplip glances man tldr yay base-devel pcmanfm qterminal \
 \

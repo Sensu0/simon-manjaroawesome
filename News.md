@@ -1,4 +1,25 @@
 # News
+<h2>for significant changes, such as adding/deleting files, patches and improvements.</h2>
+
+---
+
+<h3>6/March/2021</h3>
+
+<h3>Updated README.md</h3>
+
+Put links to omz, zsh-syntax-highlighting zsh-autosuggestions and Powerlevel10k in credits
+
+<h4>New script "post-kernel-upgrade.sh"</h4>
+
+I just found that <b>kernel-modifying packages</b> in <b>AUR</b> don't perform the modification on <u>new</u> kernels when upgrading via <i>manjaro-setting-manager</i>. Currently it just re-installs <i>xpadneo-dkms</i>, an "Advanced Linux Driver for Xbox One Wireless Gamepad" (I use it to pair my 8Bitdo SN30 Pro via bluetooth in xinput-mode). By re-installing, the modification will start again for all installed kernels.
+
+<h3>1/March/2021</h3>
+
+<h4>Deleted files</h4>
+<i>mkdir.sh, jump.sh</i> and <i>html-greeting.txt</i> are removed because I figured they were personal. They have been moved somewhere else.
+
+<h4>"install2.sh" now enables services via systemd</h4>
+For the few packages that need those in order to function.
 
 <h3>14/January/2021</h3>
 
@@ -30,6 +51,7 @@ alias gclo="git clone"
 alias gdif="git diff"
 alias gres="git reset"
 alias gsta="git status"
+alias girm="git rm"
 
 <h4>New alias "lock"</h4>
 

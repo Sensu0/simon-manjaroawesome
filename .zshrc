@@ -93,9 +93,9 @@ source $ZSH/oh-my-zsh.sh
 
 # Preferred editor for local and remote sessions
 if [[ -n $SSH_CONNECTION ]]; then
-  export EDITOR='vim'
+  export EDITOR='vim' && export VISUAL='vim'
 else
-  export EDITOR='vi'
+  export EDITOR='vi' && export VISUAL='vi'
 fi
 
 # Compilation flags
@@ -134,6 +134,7 @@ alias gclo="git clone"
 alias gdif="git diff"
 alias gres="git reset"
 alias gsta="git status"
+alias girm="git rm"
 
 # Update custom plugins
 function custupdate {

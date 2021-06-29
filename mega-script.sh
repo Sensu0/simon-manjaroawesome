@@ -5,7 +5,7 @@ cp -vr gpg.conf ~/.gnupg/
 cp -vr gpg.conf /etc/pacman.d/gnupg/
 
 # run all install scripts and make directories
-./install.sh && ./install2.sh && ./omzinstall.sh && ./omzplugins && ./mkdir.sh && ./jump.sh
+./install.sh && ./install2.sh && ./omzinstall.sh && ./omzplugins 
 
 # copy config files where they should be
 cp -vr .zshrc .vimrc ~/
