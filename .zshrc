@@ -111,6 +111,7 @@ alias zshconfig="vim ~/.zshrc"
 alias ohmyzsh="vim ~/.oh-my-zsh"
 alias cls="clear"
 alias j="jump"
+alias update="yay -Syu --sudoloop --noconfirm"
 
 # Lock the computer with black background
 alias lock="i3lock -c 000000"
