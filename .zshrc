@@ -112,6 +112,8 @@ alias ohmyzsh="vim ~/.oh-my-zsh"
 alias cls="clear"
 alias j="jump"
 alias update="yay -Syu --sudoloop --noconfirm"
+alias fastmirror="sudo pacman-mirrors --fasttrack && sudo pacman -Syy"
+
 
 # Lock the computer with black background
 alias lock="i3lock -c 000000"
