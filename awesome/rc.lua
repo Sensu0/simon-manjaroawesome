@@ -654,3 +654,6 @@ end
 --end)
 
 awful.spawn.with_shell("~/.config/awesome/autorun.sh")
+awful.spawn.with_shell("discord")
+awful.spawn.with_shell("steam")
+awful.spawn.with_shell("kdeconnect-indicator")
